@@ -1,0 +1,9 @@
+describe("Circle", function() {
+  describe("new Circle()", function() {
+    it("takes a value for the radius", function() {
+      circle = new Circle(5);
+      expect(circle).toBeDefined();
+      expect(circle.radius).toEqual(5);
+    });
+  });
+});
